@@ -38,6 +38,7 @@ public class PoseClassifierProcessor {
   private static final String TAG = "PoseClassifierProcessor";
   private static final String POSE_SAMPLES_FILE = "pose/fitness_pose_samples.csv";
 
+
   // Specify classes for which we want rep counting.
   // These are the labels in the given {@code POSE_SAMPLES_FILE}. You can set your own class labels
   // for your pose samples.
