@@ -1,0 +1,627 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:2:1-119:12
+INJECTED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:2:1-119:12
+INJECTED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:2:1-119:12
+INJECTED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:2:1-119:12
+MERGED from [androidx.multidex:multidex:2.0.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/53ed979d1d0eae12e66e74b06f416bcf/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.mlkit:barcode-scanning:16.1.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/53cb66e6fd148818221ee045c9327fa0/jetified-barcode-scanning-16.1.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:object-detection:16.2.4] /home/saleiro/.gradle/caches/transforms-2/files-2.1/d1add38273345eff681860c50ea58597/jetified-object-detection-16.2.4/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:object-detection-custom:16.3.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/1a4dc1e325f9ee006a45e6de5b0e5557/jetified-object-detection-custom-16.3.1/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:face-detection:16.0.7] /home/saleiro/.gradle/caches/transforms-2/files-2.1/97db426df0397dbbb9a68fe0ac99ecf5/jetified-face-detection-16.0.7/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/47b9fd2674a4808559247cfc7a81761e/jetified-play-services-mlkit-text-recognition-16.1.3/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:image-labeling:17.0.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/37988fc0ef529a786a450ba2ec238149/jetified-image-labeling-17.0.3/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:image-labeling-custom:16.3.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/4c6936d6d90d87e412e95f450005ce18/jetified-image-labeling-custom-16.3.1/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:pose-detection:17.0.1-beta3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/448af008cf61336938a7ad8d02708d5c/jetified-pose-detection-17.0.1-beta3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.mlkit:pose-detection-accurate:17.0.1-beta3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/16c3a737f8411fde940030cb3425a044/jetified-pose-detection-accurate-17.0.1-beta3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.mlkit:segmentation-selfie:16.0.0-beta1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/3f2a7a85413eb5325876d1168b5a893e/jetified-segmentation-selfie-16.0.0-beta1/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:camera:16.0.0-beta1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/ecb06bc2dfcd9ace62e05986c38516ba/jetified-camera-16.0.0-beta1/AndroidManifest.xml:2:1-8:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/9a6e69abcf7fbfdc70b31dea4ba34ad1/lifecycle-extensions-2.1.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.camera:camera-camera2:1.1.0-alpha04] /home/saleiro/.gradle/caches/transforms-2/files-2.1/26bf0556bad5649b3c796ded0df4a415/jetified-camera-camera2-1.1.0-alpha04/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-view:1.0.0-alpha23] /home/saleiro/.gradle/caches/transforms-2/files-2.1/b5a426190eb6640227418243e4e42218/jetified-camera-view-1.0.0-alpha23/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-lifecycle:1.0.0-rc04] /home/saleiro/.gradle/caches/transforms-2/files-2.1/690e9394ad864dd9574f51f68576a746/jetified-camera-lifecycle-1.0.0-rc04/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-core:1.1.0-alpha04] /home/saleiro/.gradle/caches/transforms-2/files-2.1/da63349b4814d38085433bb7d3b66810/jetified-camera-core-1.1.0-alpha04/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/saleiro/.gradle/caches/transforms-2/files-2.1/ad5f9b1abc6b7d108f8127bdd25b1eb8/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/0b06fa45b8e3673e83e0b09d8dca15b0/appcompat-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.4] /home/saleiro/.gradle/caches/transforms-2/files-2.1/9aa910e7cccdc639606c9acd9beb2c00/jetified-play-services-mlkit-barcode-scanning-16.1.4/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:object-detection-common:17.0.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/53c335e30e33f94bd38272945d46de7d/jetified-object-detection-common-17.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:vision-internal-vkp:18.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/e1dffddeea541524075da2954cf6bd6c/jetified-vision-internal-vkp-18.1.0/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.6] /home/saleiro/.gradle/caches/transforms-2/files-2.1/ff127a55158d7044f957bd6a8e788677/jetified-play-services-mlkit-face-detection-16.1.6/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:image-labeling-default-common:16.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/47c73f422067bceecebd0fe225566da7/jetified-image-labeling-default-common-16.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:image-labeling-common:17.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/ae7b0a363ec41b4057b6976c94fa2a2e/jetified-image-labeling-common-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:pose-detection-common:17.1.0-beta2] /home/saleiro/.gradle/caches/transforms-2/files-2.1/1b819f8d7066ac3e3d543d91f1f59bc4/jetified-pose-detection-common-17.1.0-beta2/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:mediapipe-internal:17.0.0-beta1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/58823f4603aabd2a2b668721ff0de50f/jetified-mediapipe-internal-17.0.0-beta1/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.mlkit:vision-common:16.4.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/50a7e210767567530c66950337668825/jetified-vision-common-16.4.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:common:17.1.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/cfc34a1e09d09bfd64309ece69406c88/jetified-common-17.1.1/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-vision-face-contour-internal:16.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/2b03bf5585c8d48b8a6ca8b12ffff0ce/jetified-play-services-vision-face-contour-internal-16.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/1a2a1f86845c910b9dbb07de062176ce/jetified-play-services-vision-20.1.3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/20398fad48c6745201a4762eb6bb8c3b/jetified-play-services-vision-common-19.1.3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/a0e6cd807ecd1bef6b76e1608c12c4ca/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/27d8bef05e1a62518cd0f800c7ad28c4/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/6e918386f7f330eefee1b862be9a69cc/jetified-play-services-flags-17.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:17.6.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/a6dba7c296f2802320b126017601597d/jetified-play-services-base-17.6.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.2.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/e120f99a8c92f934d6befb4c85300c85/jetified-play-services-tasks-17.2.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.6.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/c24f78d547e69c46d4befa9ac5379aad/jetified-play-services-basement-17.6.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.3.4] /home/saleiro/.gradle/caches/transforms-2/files-2.1/ee416a29980e092a2dffb0604789df3f/fragment-1.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/394768e2322c7310765a6df0978858e8/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/e7b2826362bf02bc8cf67644c83d30f2/lifecycle-livedata-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/9291fe219c8dfa722c93cff5aea700a7/jetified-activity-1.2.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/fbb250864cb59ea367e451ff03f7a638/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/97bd701bd675077ecd2b563769888f4d/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/cb74c295b9422b3b873a0a54265f6e71/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/e1c8acd13e82a8c326ca57a5f4dfc8f1/jetified-firebase-encoders-json-17.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /home/saleiro/.gradle/caches/transforms-2/files-2.1/188fd63190852be5d476181c2ca53b48/jetified-transport-runtime-2.2.6/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/e9837a907822e854e5c544b7c0f8a153/jetified-transport-api-2.2.1/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/15bb792ef2a07df3939333793b55c34b/jetified-firebase-components-16.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/8597a496b69d90cb0aabb89dbe1431ea/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/979d2820c8d9089bda60d9e9396b2783/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/31587b805d00d76b2f75853d370b3574/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/50ba76d99a48bc366388b70c4e3cd133/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/b06f838b45a9493a1401fda7cbc61e00/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/d6111cf492a7fa824781b9ce2ff2582e/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/1259fdd68423cede75c550dbdf9b6278/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.5.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/312c9dd0aed9257715e2092b3eaefb4f/core-1.5.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/fbbe9517501dc7334425bbb47f6e417e/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/b9475fae1924b826aaf9bedb52976702/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/4e387dbe8d95e5b93390d955fcd26171/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/19eb4400184c60442f07da063d482ed8/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/b18f99e0552baca35aa0099de015adae/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/047daa844c0de5d962980c7b3671ec16/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/d315c4f024777f63f5fcc461005f4447/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/bff5b2a0271e3403229744ea6c3fb30e/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/890e8d63793b52b340d9a62a1a7794ff/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/0b653fdf8d465cdbd66e9a2a460081cd/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0-rc01] /home/saleiro/.gradle/caches/transforms-2/files-2.1/51b4d9096e1284092a489ef175645930/jetified-annotation-experimental-1.1.0-rc01/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:2:1-119:12
+INJECTED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:2:1-119:12
+INJECTED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:2:1-119:12
+	package
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:5:5-43
+		INJECTED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml
+		INJECTED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:2:1-119:12
+		INJECTED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:4:5-51
+	android:versionCode
+		INJECTED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:2:1-119:12
+		INJECTED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:3:5-63
+	android:installLocation
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:6:5-35
+uses-sdk
+ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:12:5-15:63
+INJECTED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:12:5-15:63
+INJECTED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:12:5-15:63
+MERGED from [androidx.multidex:multidex:2.0.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/53ed979d1d0eae12e66e74b06f416bcf/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/53ed979d1d0eae12e66e74b06f416bcf/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.mlkit:barcode-scanning:16.1.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/53cb66e6fd148818221ee045c9327fa0/jetified-barcode-scanning-16.1.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:barcode-scanning:16.1.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/53cb66e6fd148818221ee045c9327fa0/jetified-barcode-scanning-16.1.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection:16.2.4] /home/saleiro/.gradle/caches/transforms-2/files-2.1/d1add38273345eff681860c50ea58597/jetified-object-detection-16.2.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection:16.2.4] /home/saleiro/.gradle/caches/transforms-2/files-2.1/d1add38273345eff681860c50ea58597/jetified-object-detection-16.2.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection-custom:16.3.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/1a4dc1e325f9ee006a45e6de5b0e5557/jetified-object-detection-custom-16.3.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection-custom:16.3.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/1a4dc1e325f9ee006a45e6de5b0e5557/jetified-object-detection-custom-16.3.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:face-detection:16.0.7] /home/saleiro/.gradle/caches/transforms-2/files-2.1/97db426df0397dbbb9a68fe0ac99ecf5/jetified-face-detection-16.0.7/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:face-detection:16.0.7] /home/saleiro/.gradle/caches/transforms-2/files-2.1/97db426df0397dbbb9a68fe0ac99ecf5/jetified-face-detection-16.0.7/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/47b9fd2674a4808559247cfc7a81761e/jetified-play-services-mlkit-text-recognition-16.1.3/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/47b9fd2674a4808559247cfc7a81761e/jetified-play-services-mlkit-text-recognition-16.1.3/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:image-labeling:17.0.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/37988fc0ef529a786a450ba2ec238149/jetified-image-labeling-17.0.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling:17.0.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/37988fc0ef529a786a450ba2ec238149/jetified-image-labeling-17.0.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-custom:16.3.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/4c6936d6d90d87e412e95f450005ce18/jetified-image-labeling-custom-16.3.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-custom:16.3.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/4c6936d6d90d87e412e95f450005ce18/jetified-image-labeling-custom-16.3.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection:17.0.1-beta3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/448af008cf61336938a7ad8d02708d5c/jetified-pose-detection-17.0.1-beta3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection:17.0.1-beta3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/448af008cf61336938a7ad8d02708d5c/jetified-pose-detection-17.0.1-beta3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection-accurate:17.0.1-beta3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/16c3a737f8411fde940030cb3425a044/jetified-pose-detection-accurate-17.0.1-beta3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection-accurate:17.0.1-beta3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/16c3a737f8411fde940030cb3425a044/jetified-pose-detection-accurate-17.0.1-beta3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:segmentation-selfie:16.0.0-beta1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/3f2a7a85413eb5325876d1168b5a893e/jetified-segmentation-selfie-16.0.0-beta1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:segmentation-selfie:16.0.0-beta1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/3f2a7a85413eb5325876d1168b5a893e/jetified-segmentation-selfie-16.0.0-beta1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:camera:16.0.0-beta1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/ecb06bc2dfcd9ace62e05986c38516ba/jetified-camera-16.0.0-beta1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:camera:16.0.0-beta1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/ecb06bc2dfcd9ace62e05986c38516ba/jetified-camera-16.0.0-beta1/AndroidManifest.xml:6:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/9a6e69abcf7fbfdc70b31dea4ba34ad1/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/9a6e69abcf7fbfdc70b31dea4ba34ad1/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-camera2:1.1.0-alpha04] /home/saleiro/.gradle/caches/transforms-2/files-2.1/26bf0556bad5649b3c796ded0df4a415/jetified-camera-camera2-1.1.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-camera2:1.1.0-alpha04] /home/saleiro/.gradle/caches/transforms-2/files-2.1/26bf0556bad5649b3c796ded0df4a415/jetified-camera-camera2-1.1.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-view:1.0.0-alpha23] /home/saleiro/.gradle/caches/transforms-2/files-2.1/b5a426190eb6640227418243e4e42218/jetified-camera-view-1.0.0-alpha23/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-view:1.0.0-alpha23] /home/saleiro/.gradle/caches/transforms-2/files-2.1/b5a426190eb6640227418243e4e42218/jetified-camera-view-1.0.0-alpha23/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-lifecycle:1.0.0-rc04] /home/saleiro/.gradle/caches/transforms-2/files-2.1/690e9394ad864dd9574f51f68576a746/jetified-camera-lifecycle-1.0.0-rc04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-lifecycle:1.0.0-rc04] /home/saleiro/.gradle/caches/transforms-2/files-2.1/690e9394ad864dd9574f51f68576a746/jetified-camera-lifecycle-1.0.0-rc04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-core:1.1.0-alpha04] /home/saleiro/.gradle/caches/transforms-2/files-2.1/da63349b4814d38085433bb7d3b66810/jetified-camera-core-1.1.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-core:1.1.0-alpha04] /home/saleiro/.gradle/caches/transforms-2/files-2.1/da63349b4814d38085433bb7d3b66810/jetified-camera-core-1.1.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/saleiro/.gradle/caches/transforms-2/files-2.1/ad5f9b1abc6b7d108f8127bdd25b1eb8/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/saleiro/.gradle/caches/transforms-2/files-2.1/ad5f9b1abc6b7d108f8127bdd25b1eb8/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/0b06fa45b8e3673e83e0b09d8dca15b0/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/0b06fa45b8e3673e83e0b09d8dca15b0/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.4] /home/saleiro/.gradle/caches/transforms-2/files-2.1/9aa910e7cccdc639606c9acd9beb2c00/jetified-play-services-mlkit-barcode-scanning-16.1.4/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.4] /home/saleiro/.gradle/caches/transforms-2/files-2.1/9aa910e7cccdc639606c9acd9beb2c00/jetified-play-services-mlkit-barcode-scanning-16.1.4/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:object-detection-common:17.0.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/53c335e30e33f94bd38272945d46de7d/jetified-object-detection-common-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection-common:17.0.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/53c335e30e33f94bd38272945d46de7d/jetified-object-detection-common-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-internal-vkp:18.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/e1dffddeea541524075da2954cf6bd6c/jetified-vision-internal-vkp-18.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-internal-vkp:18.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/e1dffddeea541524075da2954cf6bd6c/jetified-vision-internal-vkp-18.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.6] /home/saleiro/.gradle/caches/transforms-2/files-2.1/ff127a55158d7044f957bd6a8e788677/jetified-play-services-mlkit-face-detection-16.1.6/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.6] /home/saleiro/.gradle/caches/transforms-2/files-2.1/ff127a55158d7044f957bd6a8e788677/jetified-play-services-mlkit-face-detection-16.1.6/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:image-labeling-default-common:16.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/47c73f422067bceecebd0fe225566da7/jetified-image-labeling-default-common-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-default-common:16.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/47c73f422067bceecebd0fe225566da7/jetified-image-labeling-default-common-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-common:17.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/ae7b0a363ec41b4057b6976c94fa2a2e/jetified-image-labeling-common-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-common:17.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/ae7b0a363ec41b4057b6976c94fa2a2e/jetified-image-labeling-common-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection-common:17.1.0-beta2] /home/saleiro/.gradle/caches/transforms-2/files-2.1/1b819f8d7066ac3e3d543d91f1f59bc4/jetified-pose-detection-common-17.1.0-beta2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection-common:17.1.0-beta2] /home/saleiro/.gradle/caches/transforms-2/files-2.1/1b819f8d7066ac3e3d543d91f1f59bc4/jetified-pose-detection-common-17.1.0-beta2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:mediapipe-internal:17.0.0-beta1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/58823f4603aabd2a2b668721ff0de50f/jetified-mediapipe-internal-17.0.0-beta1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:mediapipe-internal:17.0.0-beta1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/58823f4603aabd2a2b668721ff0de50f/jetified-mediapipe-internal-17.0.0-beta1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:16.4.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/50a7e210767567530c66950337668825/jetified-vision-common-16.4.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:16.4.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/50a7e210767567530c66950337668825/jetified-vision-common-16.4.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:17.1.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/cfc34a1e09d09bfd64309ece69406c88/jetified-common-17.1.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:17.1.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/cfc34a1e09d09bfd64309ece69406c88/jetified-common-17.1.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-vision-face-contour-internal:16.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/2b03bf5585c8d48b8a6ca8b12ffff0ce/jetified-play-services-vision-face-contour-internal-16.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-face-contour-internal:16.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/2b03bf5585c8d48b8a6ca8b12ffff0ce/jetified-play-services-vision-face-contour-internal-16.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/1a2a1f86845c910b9dbb07de062176ce/jetified-play-services-vision-20.1.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/1a2a1f86845c910b9dbb07de062176ce/jetified-play-services-vision-20.1.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/20398fad48c6745201a4762eb6bb8c3b/jetified-play-services-vision-common-19.1.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/20398fad48c6745201a4762eb6bb8c3b/jetified-play-services-vision-common-19.1.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/a0e6cd807ecd1bef6b76e1608c12c4ca/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/a0e6cd807ecd1bef6b76e1608c12c4ca/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/27d8bef05e1a62518cd0f800c7ad28c4/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/27d8bef05e1a62518cd0f800c7ad28c4/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/6e918386f7f330eefee1b862be9a69cc/jetified-play-services-flags-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/6e918386f7f330eefee1b862be9a69cc/jetified-play-services-flags-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.6.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/a6dba7c296f2802320b126017601597d/jetified-play-services-base-17.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.6.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/a6dba7c296f2802320b126017601597d/jetified-play-services-base-17.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/e120f99a8c92f934d6befb4c85300c85/jetified-play-services-tasks-17.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/e120f99a8c92f934d6befb4c85300c85/jetified-play-services-tasks-17.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.6.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/c24f78d547e69c46d4befa9ac5379aad/jetified-play-services-basement-17.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.6.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/c24f78d547e69c46d4befa9ac5379aad/jetified-play-services-basement-17.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.4] /home/saleiro/.gradle/caches/transforms-2/files-2.1/ee416a29980e092a2dffb0604789df3f/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /home/saleiro/.gradle/caches/transforms-2/files-2.1/ee416a29980e092a2dffb0604789df3f/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/394768e2322c7310765a6df0978858e8/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/394768e2322c7310765a6df0978858e8/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/e7b2826362bf02bc8cf67644c83d30f2/lifecycle-livedata-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/e7b2826362bf02bc8cf67644c83d30f2/lifecycle-livedata-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/9291fe219c8dfa722c93cff5aea700a7/jetified-activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/9291fe219c8dfa722c93cff5aea700a7/jetified-activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/fbb250864cb59ea367e451ff03f7a638/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/fbb250864cb59ea367e451ff03f7a638/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/97bd701bd675077ecd2b563769888f4d/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/97bd701bd675077ecd2b563769888f4d/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/cb74c295b9422b3b873a0a54265f6e71/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/cb74c295b9422b3b873a0a54265f6e71/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/e1c8acd13e82a8c326ca57a5f4dfc8f1/jetified-firebase-encoders-json-17.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/e1c8acd13e82a8c326ca57a5f4dfc8f1/jetified-firebase-encoders-json-17.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /home/saleiro/.gradle/caches/transforms-2/files-2.1/188fd63190852be5d476181c2ca53b48/jetified-transport-runtime-2.2.6/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /home/saleiro/.gradle/caches/transforms-2/files-2.1/188fd63190852be5d476181c2ca53b48/jetified-transport-runtime-2.2.6/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/e9837a907822e854e5c544b7c0f8a153/jetified-transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/e9837a907822e854e5c544b7c0f8a153/jetified-transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/15bb792ef2a07df3939333793b55c34b/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/15bb792ef2a07df3939333793b55c34b/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/8597a496b69d90cb0aabb89dbe1431ea/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/8597a496b69d90cb0aabb89dbe1431ea/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/979d2820c8d9089bda60d9e9396b2783/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/979d2820c8d9089bda60d9e9396b2783/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/31587b805d00d76b2f75853d370b3574/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/31587b805d00d76b2f75853d370b3574/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/50ba76d99a48bc366388b70c4e3cd133/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/50ba76d99a48bc366388b70c4e3cd133/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/b06f838b45a9493a1401fda7cbc61e00/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/b06f838b45a9493a1401fda7cbc61e00/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/d6111cf492a7fa824781b9ce2ff2582e/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/d6111cf492a7fa824781b9ce2ff2582e/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/1259fdd68423cede75c550dbdf9b6278/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/1259fdd68423cede75c550dbdf9b6278/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.5.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/312c9dd0aed9257715e2092b3eaefb4f/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/312c9dd0aed9257715e2092b3eaefb4f/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/fbbe9517501dc7334425bbb47f6e417e/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/fbbe9517501dc7334425bbb47f6e417e/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/b9475fae1924b826aaf9bedb52976702/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/b9475fae1924b826aaf9bedb52976702/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/4e387dbe8d95e5b93390d955fcd26171/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/4e387dbe8d95e5b93390d955fcd26171/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/19eb4400184c60442f07da063d482ed8/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/19eb4400184c60442f07da063d482ed8/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/b18f99e0552baca35aa0099de015adae/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/b18f99e0552baca35aa0099de015adae/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/047daa844c0de5d962980c7b3671ec16/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/047daa844c0de5d962980c7b3671ec16/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/d315c4f024777f63f5fcc461005f4447/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/d315c4f024777f63f5fcc461005f4447/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/bff5b2a0271e3403229744ea6c3fb30e/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/bff5b2a0271e3403229744ea6c3fb30e/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/890e8d63793b52b340d9a62a1a7794ff/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/890e8d63793b52b340d9a62a1a7794ff/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/0b653fdf8d465cdbd66e9a2a460081cd/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/0b653fdf8d465cdbd66e9a2a460081cd/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0-rc01] /home/saleiro/.gradle/caches/transforms-2/files-2.1/51b4d9096e1284092a489ef175645930/jetified-annotation-experimental-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0-rc01] /home/saleiro/.gradle/caches/transforms-2/files-2.1/51b4d9096e1284092a489ef175645930/jetified-annotation-experimental-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:12:5-15:63
+INJECTED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:12:5-15:63
+	tools:overrideLibrary
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:12:5-15:63
+	android:targetSdkVersion
+		INJECTED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:12:5-15:63
+		INJECTED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:12:5-15:63
+		INJECTED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml
+uses-feature#android.hardware.camera
+ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:17:5-59
+	android:name
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:17:19-57
+uses-permission#android.permission.INTERNET
+ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/cb74c295b9422b3b873a0a54265f6e71/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/cb74c295b9422b3b873a0a54265f6e71/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:19:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:20:5-80
+	android:name
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:20:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:21:5-79
+	android:name
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:21:22-77
+uses-permission#android.permission.CAMERA
+ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:22:5-64
+	android:name
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:22:22-62
+application
+ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:24:5-112:19
+MERGED from [com.google.mlkit:object-detection:16.2.4] /home/saleiro/.gradle/caches/transforms-2/files-2.1/d1add38273345eff681860c50ea58597/jetified-object-detection-16.2.4/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:object-detection:16.2.4] /home/saleiro/.gradle/caches/transforms-2/files-2.1/d1add38273345eff681860c50ea58597/jetified-object-detection-16.2.4/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:object-detection-custom:16.3.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/1a4dc1e325f9ee006a45e6de5b0e5557/jetified-object-detection-custom-16.3.1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:object-detection-custom:16.3.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/1a4dc1e325f9ee006a45e6de5b0e5557/jetified-object-detection-custom-16.3.1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/47b9fd2674a4808559247cfc7a81761e/jetified-play-services-mlkit-text-recognition-16.1.3/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/47b9fd2674a4808559247cfc7a81761e/jetified-play-services-mlkit-text-recognition-16.1.3/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:image-labeling:17.0.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/37988fc0ef529a786a450ba2ec238149/jetified-image-labeling-17.0.3/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:image-labeling:17.0.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/37988fc0ef529a786a450ba2ec238149/jetified-image-labeling-17.0.3/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:image-labeling-custom:16.3.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/4c6936d6d90d87e412e95f450005ce18/jetified-image-labeling-custom-16.3.1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:image-labeling-custom:16.3.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/4c6936d6d90d87e412e95f450005ce18/jetified-image-labeling-custom-16.3.1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:pose-detection:17.0.1-beta3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/448af008cf61336938a7ad8d02708d5c/jetified-pose-detection-17.0.1-beta3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.mlkit:pose-detection:17.0.1-beta3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/448af008cf61336938a7ad8d02708d5c/jetified-pose-detection-17.0.1-beta3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.mlkit:pose-detection-accurate:17.0.1-beta3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/16c3a737f8411fde940030cb3425a044/jetified-pose-detection-accurate-17.0.1-beta3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.mlkit:pose-detection-accurate:17.0.1-beta3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/16c3a737f8411fde940030cb3425a044/jetified-pose-detection-accurate-17.0.1-beta3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.mlkit:segmentation-selfie:16.0.0-beta1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/3f2a7a85413eb5325876d1168b5a893e/jetified-segmentation-selfie-16.0.0-beta1/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:segmentation-selfie:16.0.0-beta1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/3f2a7a85413eb5325876d1168b5a893e/jetified-segmentation-selfie-16.0.0-beta1/AndroidManifest.xml:8:5-16:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/9a6e69abcf7fbfdc70b31dea4ba34ad1/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/9a6e69abcf7fbfdc70b31dea4ba34ad1/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/saleiro/.gradle/caches/transforms-2/files-2.1/ad5f9b1abc6b7d108f8127bdd25b1eb8/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/saleiro/.gradle/caches/transforms-2/files-2.1/ad5f9b1abc6b7d108f8127bdd25b1eb8/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.4] /home/saleiro/.gradle/caches/transforms-2/files-2.1/9aa910e7cccdc639606c9acd9beb2c00/jetified-play-services-mlkit-barcode-scanning-16.1.4/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.4] /home/saleiro/.gradle/caches/transforms-2/files-2.1/9aa910e7cccdc639606c9acd9beb2c00/jetified-play-services-mlkit-barcode-scanning-16.1.4/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-internal-vkp:18.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/e1dffddeea541524075da2954cf6bd6c/jetified-vision-internal-vkp-18.1.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:vision-internal-vkp:18.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/e1dffddeea541524075da2954cf6bd6c/jetified-vision-internal-vkp-18.1.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.6] /home/saleiro/.gradle/caches/transforms-2/files-2.1/ff127a55158d7044f957bd6a8e788677/jetified-play-services-mlkit-face-detection-16.1.6/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.6] /home/saleiro/.gradle/caches/transforms-2/files-2.1/ff127a55158d7044f957bd6a8e788677/jetified-play-services-mlkit-face-detection-16.1.6/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:pose-detection-common:17.1.0-beta2] /home/saleiro/.gradle/caches/transforms-2/files-2.1/1b819f8d7066ac3e3d543d91f1f59bc4/jetified-pose-detection-common-17.1.0-beta2/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:pose-detection-common:17.1.0-beta2] /home/saleiro/.gradle/caches/transforms-2/files-2.1/1b819f8d7066ac3e3d543d91f1f59bc4/jetified-pose-detection-common-17.1.0-beta2/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:vision-common:16.4.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/50a7e210767567530c66950337668825/jetified-vision-common-16.4.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:16.4.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/50a7e210767567530c66950337668825/jetified-vision-common-16.4.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:common:17.1.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/cfc34a1e09d09bfd64309ece69406c88/jetified-common-17.1.1/AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.mlkit:common:17.1.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/cfc34a1e09d09bfd64309ece69406c88/jetified-common-17.1.1/AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.android.gms:play-services-vision-face-contour-internal:16.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/2b03bf5585c8d48b8a6ca8b12ffff0ce/jetified-play-services-vision-face-contour-internal-16.1.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-face-contour-internal:16.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/2b03bf5585c8d48b8a6ca8b12ffff0ce/jetified-play-services-vision-face-contour-internal-16.1.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/1a2a1f86845c910b9dbb07de062176ce/jetified-play-services-vision-20.1.3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/1a2a1f86845c910b9dbb07de062176ce/jetified-play-services-vision-20.1.3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/20398fad48c6745201a4762eb6bb8c3b/jetified-play-services-vision-common-19.1.3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/20398fad48c6745201a4762eb6bb8c3b/jetified-play-services-vision-common-19.1.3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/a0e6cd807ecd1bef6b76e1608c12c4ca/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/a0e6cd807ecd1bef6b76e1608c12c4ca/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/27d8bef05e1a62518cd0f800c7ad28c4/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/27d8bef05e1a62518cd0f800c7ad28c4/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:17.6.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/a6dba7c296f2802320b126017601597d/jetified-play-services-base-17.6.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.6.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/a6dba7c296f2802320b126017601597d/jetified-play-services-base-17.6.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.2.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/e120f99a8c92f934d6befb4c85300c85/jetified-play-services-tasks-17.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/e120f99a8c92f934d6befb4c85300c85/jetified-play-services-tasks-17.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.6.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/c24f78d547e69c46d4befa9ac5379aad/jetified-play-services-basement-17.6.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.6.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/c24f78d547e69c46d4befa9ac5379aad/jetified-play-services-basement-17.6.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/cb74c295b9422b3b873a0a54265f6e71/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/cb74c295b9422b3b873a0a54265f6e71/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /home/saleiro/.gradle/caches/transforms-2/files-2.1/188fd63190852be5d476181c2ca53b48/jetified-transport-runtime-2.2.6/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /home/saleiro/.gradle/caches/transforms-2/files-2.1/188fd63190852be5d476181c2ca53b48/jetified-transport-runtime-2.2.6/AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.core:core:1.5.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/312c9dd0aed9257715e2092b3eaefb4f/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/312c9dd0aed9257715e2092b3eaefb4f/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/fbbe9517501dc7334425bbb47f6e417e/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/fbbe9517501dc7334425bbb47f6e417e/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/bff5b2a0271e3403229744ea6c3fb30e/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/bff5b2a0271e3403229744ea6c3fb30e/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/312c9dd0aed9257715e2092b3eaefb4f/core-1.5.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:27:9-41
+	android:icon
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:26:9-44
+	android:theme
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:28:9-47
+	android:name
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:25:9-61
+meta-data#com.google.android.gms.version
+ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:30:9-32:68
+MERGED from [com.google.android.gms:play-services-basement:17.6.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/c24f78d547e69c46d4befa9ac5379aad/jetified-play-services-basement-17.6.0/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:17.6.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/c24f78d547e69c46d4befa9ac5379aad/jetified-play-services-basement-17.6.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:32:13-66
+	android:name
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:31:13-58
+meta-data#com.google.mlkit.vision.DEPENDENCIES
+ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:36:9-38:51
+	android:value
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:38:13-49
+	android:name
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:37:13-64
+activity#com.google.mlkit.vision.demo.EntryChoiceActivity
+ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:40:9-48:20
+	android:exported
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:42:13-36
+	android:theme
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:43:13-44
+	android:name
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:41:13-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:44:13-47:29
+action#android.intent.action.MAIN
+ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:45:17-68
+	android:name
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:45:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:46:17-76
+	android:name
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:46:27-74
+activity#com.google.mlkit.vision.demo.java.ChooserActivity
+ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:50:9-53:20
+	android:exported
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:51:13-49
+activity#com.google.mlkit.vision.demo.java.LivePreviewActivity
+ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:55:9-59:20
+	android:exported
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:57:13-36
+	android:theme
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:58:13-44
+	android:name
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:56:13-53
+activity#com.google.mlkit.vision.demo.java.CameraXLivePreviewActivity
+ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:61:9-65:20
+	android:exported
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:63:13-36
+	android:theme
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:64:13-44
+	android:name
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:62:13-60
+activity#com.google.mlkit.vision.demo.java.CameraXSourceDemoActivity
+ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:67:9-71:20
+	android:exported
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:69:13-36
+	android:theme
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:70:13-44
+	android:name
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:68:13-59
+activity#com.google.mlkit.vision.demo.java.StillImageActivity
+ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:73:9-77:20
+	android:exported
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:75:13-36
+	android:theme
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:76:13-44
+	android:name
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:74:13-52
+activity#com.google.mlkit.vision.demo.kotlin.ChooserActivity
+ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:79:9-82:20
+	android:exported
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:81:13-36
+	android:name
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:80:13-51
+activity#com.google.mlkit.vision.demo.kotlin.LivePreviewActivity
+ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:84:9-88:20
+	android:exported
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:86:13-36
+	android:theme
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:87:13-44
+	android:name
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:85:13-55
+activity#com.google.mlkit.vision.demo.kotlin.CameraXLivePreviewActivity
+ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:90:9-94:20
+	android:exported
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:92:13-36
+	android:theme
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:93:13-44
+	android:name
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:91:13-62
+activity#com.google.mlkit.vision.demo.kotlin.CameraXSourceDemoActivity
+ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:96:9-100:20
+	android:exported
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:98:13-36
+	android:theme
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:99:13-44
+	android:name
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:97:13-61
+activity#com.google.mlkit.vision.demo.kotlin.StillImageActivity
+ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:102:9-106:20
+	android:exported
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:104:13-36
+	android:theme
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:105:13-44
+	android:name
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:103:13-54
+activity#com.google.mlkit.vision.demo.preference.SettingsActivity
+ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:108:9-110:39
+	android:exported
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:110:13-37
+	android:name
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:109:13-56
+queries
+ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:113:5-117:15
+intent#action:name:android.media.action.IMAGE_CAPTURE
+ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:114:9-116:18
+action#android.media.action.IMAGE_CAPTURE
+ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:115:13-73
+	android:name
+		ADDED from /home/saleiro/Downloads/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:115:21-70
+service#com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+ADDED from [com.google.mlkit:object-detection:16.2.4] /home/saleiro/.gradle/caches/transforms-2/files-2.1/d1add38273345eff681860c50ea58597/jetified-object-detection-16.2.4/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:object-detection-custom:16.3.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/1a4dc1e325f9ee006a45e6de5b0e5557/jetified-object-detection-custom-16.3.1/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:object-detection-custom:16.3.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/1a4dc1e325f9ee006a45e6de5b0e5557/jetified-object-detection-custom-16.3.1/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/47b9fd2674a4808559247cfc7a81761e/jetified-play-services-mlkit-text-recognition-16.1.3/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/47b9fd2674a4808559247cfc7a81761e/jetified-play-services-mlkit-text-recognition-16.1.3/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:image-labeling:17.0.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/37988fc0ef529a786a450ba2ec238149/jetified-image-labeling-17.0.3/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:image-labeling:17.0.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/37988fc0ef529a786a450ba2ec238149/jetified-image-labeling-17.0.3/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:image-labeling-custom:16.3.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/4c6936d6d90d87e412e95f450005ce18/jetified-image-labeling-custom-16.3.1/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:image-labeling-custom:16.3.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/4c6936d6d90d87e412e95f450005ce18/jetified-image-labeling-custom-16.3.1/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:segmentation-selfie:16.0.0-beta1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/3f2a7a85413eb5325876d1168b5a893e/jetified-segmentation-selfie-16.0.0-beta1/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:segmentation-selfie:16.0.0-beta1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/3f2a7a85413eb5325876d1168b5a893e/jetified-segmentation-selfie-16.0.0-beta1/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.4] /home/saleiro/.gradle/caches/transforms-2/files-2.1/9aa910e7cccdc639606c9acd9beb2c00/jetified-play-services-mlkit-barcode-scanning-16.1.4/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.4] /home/saleiro/.gradle/caches/transforms-2/files-2.1/9aa910e7cccdc639606c9acd9beb2c00/jetified-play-services-mlkit-barcode-scanning-16.1.4/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-internal-vkp:18.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/e1dffddeea541524075da2954cf6bd6c/jetified-vision-internal-vkp-18.1.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:vision-internal-vkp:18.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/e1dffddeea541524075da2954cf6bd6c/jetified-vision-internal-vkp-18.1.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.6] /home/saleiro/.gradle/caches/transforms-2/files-2.1/ff127a55158d7044f957bd6a8e788677/jetified-play-services-mlkit-face-detection-16.1.6/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.6] /home/saleiro/.gradle/caches/transforms-2/files-2.1/ff127a55158d7044f957bd6a8e788677/jetified-play-services-mlkit-face-detection-16.1.6/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:pose-detection-common:17.1.0-beta2] /home/saleiro/.gradle/caches/transforms-2/files-2.1/1b819f8d7066ac3e3d543d91f1f59bc4/jetified-pose-detection-common-17.1.0-beta2/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:pose-detection-common:17.1.0-beta2] /home/saleiro/.gradle/caches/transforms-2/files-2.1/1b819f8d7066ac3e3d543d91f1f59bc4/jetified-pose-detection-common-17.1.0-beta2/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:vision-common:16.4.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/50a7e210767567530c66950337668825/jetified-vision-common-16.4.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:16.4.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/50a7e210767567530c66950337668825/jetified-vision-common-16.4.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:common:17.1.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/cfc34a1e09d09bfd64309ece69406c88/jetified-common-17.1.1/AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.mlkit:common:17.1.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/cfc34a1e09d09bfd64309ece69406c88/jetified-common-17.1.1/AndroidManifest.xml:15:9-23:19
+	android:exported
+		ADDED from [com.google.mlkit:object-detection:16.2.4] /home/saleiro/.gradle/caches/transforms-2/files-2.1/d1add38273345eff681860c50ea58597/jetified-object-detection-16.2.4/AndroidManifest.xml:10:13-37
+	tools:targetApi
+		ADDED from [com.google.mlkit:common:17.1.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/cfc34a1e09d09bfd64309ece69406c88/jetified-common-17.1.1/AndroidManifest.xml:19:13-32
+	android:directBootAware
+		ADDED from [com.google.mlkit:common:17.1.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/cfc34a1e09d09bfd64309ece69406c88/jetified-common-17.1.1/AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [com.google.mlkit:object-detection:16.2.4] /home/saleiro/.gradle/caches/transforms-2/files-2.1/d1add38273345eff681860c50ea58597/jetified-object-detection-16.2.4/AndroidManifest.xml:9:13-91
+meta-data#com.google.firebase.components:com.google.mlkit.vision.objects.defaults.internal.DefaultObjectsRegistrar
+ADDED from [com.google.mlkit:object-detection:16.2.4] /home/saleiro/.gradle/caches/transforms-2/files-2.1/d1add38273345eff681860c50ea58597/jetified-object-detection-16.2.4/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:object-detection:16.2.4] /home/saleiro/.gradle/caches/transforms-2/files-2.1/d1add38273345eff681860c50ea58597/jetified-object-detection-16.2.4/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:object-detection:16.2.4] /home/saleiro/.gradle/caches/transforms-2/files-2.1/d1add38273345eff681860c50ea58597/jetified-object-detection-16.2.4/AndroidManifest.xml:12:17-136
+meta-data#com.google.firebase.components:com.google.mlkit.vision.objects.custom.internal.CustomObjectsRegistrar
+ADDED from [com.google.mlkit:object-detection-custom:16.3.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/1a4dc1e325f9ee006a45e6de5b0e5557/jetified-object-detection-custom-16.3.1/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:object-detection-custom:16.3.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/1a4dc1e325f9ee006a45e6de5b0e5557/jetified-object-detection-custom-16.3.1/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:object-detection-custom:16.3.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/1a4dc1e325f9ee006a45e6de5b0e5557/jetified-object-detection-custom-16.3.1/AndroidManifest.xml:12:17-133
+meta-data#com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/47b9fd2674a4808559247cfc7a81761e/jetified-play-services-mlkit-text-recognition-16.1.3/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/47b9fd2674a4808559247cfc7a81761e/jetified-play-services-mlkit-text-recognition-16.1.3/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/47b9fd2674a4808559247cfc7a81761e/jetified-play-services-mlkit-text-recognition-16.1.3/AndroidManifest.xml:13:17-114
+meta-data#com.google.firebase.components:com.google.mlkit.vision.label.defaults.internal.BundledLabelRegistrar
+ADDED from [com.google.mlkit:image-labeling:17.0.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/37988fc0ef529a786a450ba2ec238149/jetified-image-labeling-17.0.3/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:image-labeling:17.0.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/37988fc0ef529a786a450ba2ec238149/jetified-image-labeling-17.0.3/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:image-labeling:17.0.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/37988fc0ef529a786a450ba2ec238149/jetified-image-labeling-17.0.3/AndroidManifest.xml:12:17-132
+meta-data#com.google.firebase.components:com.google.mlkit.vision.label.custom.internal.CustomLabelRegistrar
+ADDED from [com.google.mlkit:image-labeling-custom:16.3.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/4c6936d6d90d87e412e95f450005ce18/jetified-image-labeling-custom-16.3.1/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:image-labeling-custom:16.3.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/4c6936d6d90d87e412e95f450005ce18/jetified-image-labeling-custom-16.3.1/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:image-labeling-custom:16.3.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/4c6936d6d90d87e412e95f450005ce18/jetified-image-labeling-custom-16.3.1/AndroidManifest.xml:12:17-129
+meta-data#com.google.firebase.components:com.google.mlkit.vision.segmentation.internal.SegmentationRegistrar
+ADDED from [com.google.mlkit:segmentation-selfie:16.0.0-beta1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/3f2a7a85413eb5325876d1168b5a893e/jetified-segmentation-selfie-16.0.0-beta1/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.mlkit:segmentation-selfie:16.0.0-beta1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/3f2a7a85413eb5325876d1168b5a893e/jetified-segmentation-selfie-16.0.0-beta1/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.mlkit:segmentation-selfie:16.0.0-beta1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/3f2a7a85413eb5325876d1168b5a893e/jetified-segmentation-selfie-16.0.0-beta1/AndroidManifest.xml:13:17-130
+meta-data#com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.4] /home/saleiro/.gradle/caches/transforms-2/files-2.1/9aa910e7cccdc639606c9acd9beb2c00/jetified-play-services-mlkit-barcode-scanning-16.1.4/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.4] /home/saleiro/.gradle/caches/transforms-2/files-2.1/9aa910e7cccdc639606c9acd9beb2c00/jetified-play-services-mlkit-barcode-scanning-16.1.4/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.4] /home/saleiro/.gradle/caches/transforms-2/files-2.1/9aa910e7cccdc639606c9acd9beb2c00/jetified-play-services-mlkit-barcode-scanning-16.1.4/AndroidManifest.xml:13:17-120
+meta-data#com.google.firebase.components:com.google.mlkit.vision.vkp.VkpRegistrar
+ADDED from [com.google.mlkit:vision-internal-vkp:18.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/e1dffddeea541524075da2954cf6bd6c/jetified-vision-internal-vkp-18.1.0/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:vision-internal-vkp:18.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/e1dffddeea541524075da2954cf6bd6c/jetified-vision-internal-vkp-18.1.0/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-internal-vkp:18.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/e1dffddeea541524075da2954cf6bd6c/jetified-vision-internal-vkp-18.1.0/AndroidManifest.xml:12:17-103
+meta-data#com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.6] /home/saleiro/.gradle/caches/transforms-2/files-2.1/ff127a55158d7044f957bd6a8e788677/jetified-play-services-mlkit-face-detection-16.1.6/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.6] /home/saleiro/.gradle/caches/transforms-2/files-2.1/ff127a55158d7044f957bd6a8e788677/jetified-play-services-mlkit-face-detection-16.1.6/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.6] /home/saleiro/.gradle/caches/transforms-2/files-2.1/ff127a55158d7044f957bd6a8e788677/jetified-play-services-mlkit-face-detection-16.1.6/AndroidManifest.xml:13:17-114
+meta-data#com.google.firebase.components:com.google.mlkit.vision.pose.internal.PoseRegistrar
+ADDED from [com.google.mlkit:pose-detection-common:17.1.0-beta2] /home/saleiro/.gradle/caches/transforms-2/files-2.1/1b819f8d7066ac3e3d543d91f1f59bc4/jetified-pose-detection-common-17.1.0-beta2/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:pose-detection-common:17.1.0-beta2] /home/saleiro/.gradle/caches/transforms-2/files-2.1/1b819f8d7066ac3e3d543d91f1f59bc4/jetified-pose-detection-common-17.1.0-beta2/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:pose-detection-common:17.1.0-beta2] /home/saleiro/.gradle/caches/transforms-2/files-2.1/1b819f8d7066ac3e3d543d91f1f59bc4/jetified-pose-detection-common-17.1.0-beta2/AndroidManifest.xml:12:17-114
+meta-data#com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar
+ADDED from [com.google.mlkit:vision-common:16.4.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/50a7e210767567530c66950337668825/jetified-vision-common-16.4.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.mlkit:vision-common:16.4.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/50a7e210767567530c66950337668825/jetified-vision-common-16.4.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-common:16.4.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/50a7e210767567530c66950337668825/jetified-vision-common-16.4.0/AndroidManifest.xml:13:17-124
+provider#com.google.mlkit.common.internal.MlKitInitProvider
+ADDED from [com.google.mlkit:common:17.1.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/cfc34a1e09d09bfd64309ece69406c88/jetified-common-17.1.1/AndroidManifest.xml:9:9-13:38
+	android:authorities
+		ADDED from [com.google.mlkit:common:17.1.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/cfc34a1e09d09bfd64309ece69406c88/jetified-common-17.1.1/AndroidManifest.xml:11:13-69
+	android:exported
+		ADDED from [com.google.mlkit:common:17.1.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/cfc34a1e09d09bfd64309ece69406c88/jetified-common-17.1.1/AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.mlkit:common:17.1.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/cfc34a1e09d09bfd64309ece69406c88/jetified-common-17.1.1/AndroidManifest.xml:13:13-35
+	android:name
+		ADDED from [com.google.mlkit:common:17.1.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/cfc34a1e09d09bfd64309ece69406c88/jetified-common-17.1.1/AndroidManifest.xml:10:13-78
+meta-data#com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar
+ADDED from [com.google.mlkit:common:17.1.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/cfc34a1e09d09bfd64309ece69406c88/jetified-common-17.1.1/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.mlkit:common:17.1.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/cfc34a1e09d09bfd64309ece69406c88/jetified-common-17.1.1/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.mlkit:common:17.1.1] /home/saleiro/.gradle/caches/transforms-2/files-2.1/cfc34a1e09d09bfd64309ece69406c88/jetified-common-17.1.1/AndroidManifest.xml:21:17-120
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.6.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/a6dba7c296f2802320b126017601597d/jetified-play-services-base-17.6.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.6.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/a6dba7c296f2802320b126017601597d/jetified-play-services-base-17.6.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.6.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/a6dba7c296f2802320b126017601597d/jetified-play-services-base-17.6.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.6.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/a6dba7c296f2802320b126017601597d/jetified-play-services-base-17.6.0/AndroidManifest.xml:24:13-79
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/cb74c295b9422b3b873a0a54265f6e71/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /home/saleiro/.gradle/caches/transforms-2/files-2.1/188fd63190852be5d476181c2ca53b48/jetified-transport-runtime-2.2.6/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /home/saleiro/.gradle/caches/transforms-2/files-2.1/188fd63190852be5d476181c2ca53b48/jetified-transport-runtime-2.2.6/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/cb74c295b9422b3b873a0a54265f6e71/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:22-76
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/cb74c295b9422b3b873a0a54265f6e71/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /home/saleiro/.gradle/caches/transforms-2/files-2.1/188fd63190852be5d476181c2ca53b48/jetified-transport-runtime-2.2.6/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /home/saleiro/.gradle/caches/transforms-2/files-2.1/188fd63190852be5d476181c2ca53b48/jetified-transport-runtime-2.2.6/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/cb74c295b9422b3b873a0a54265f6e71/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/cb74c295b9422b3b873a0a54265f6e71/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/cb74c295b9422b3b873a0a54265f6e71/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/cb74c295b9422b3b873a0a54265f6e71/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /home/saleiro/.gradle/caches/transforms-2/files-2.1/cb74c295b9422b3b873a0a54265f6e71/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /home/saleiro/.gradle/caches/transforms-2/files-2.1/188fd63190852be5d476181c2ca53b48/jetified-transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /home/saleiro/.gradle/caches/transforms-2/files-2.1/188fd63190852be5d476181c2ca53b48/jetified-transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /home/saleiro/.gradle/caches/transforms-2/files-2.1/188fd63190852be5d476181c2ca53b48/jetified-transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /home/saleiro/.gradle/caches/transforms-2/files-2.1/188fd63190852be5d476181c2ca53b48/jetified-transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /home/saleiro/.gradle/caches/transforms-2/files-2.1/188fd63190852be5d476181c2ca53b48/jetified-transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /home/saleiro/.gradle/caches/transforms-2/files-2.1/188fd63190852be5d476181c2ca53b48/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /home/saleiro/.gradle/caches/transforms-2/files-2.1/188fd63190852be5d476181c2ca53b48/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/fbbe9517501dc7334425bbb47f6e417e/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/fbbe9517501dc7334425bbb47f6e417e/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/fbbe9517501dc7334425bbb47f6e417e/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/fbbe9517501dc7334425bbb47f6e417e/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/saleiro/.gradle/caches/transforms-2/files-2.1/fbbe9517501dc7334425bbb47f6e417e/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
