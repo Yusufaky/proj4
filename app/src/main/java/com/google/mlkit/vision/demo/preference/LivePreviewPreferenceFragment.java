@@ -40,7 +40,6 @@ public class LivePreviewPreferenceFragment extends PreferenceFragment {
 
     addPreferencesFromResource(R.xml.preference_live_preview_quickstart);
     setUpCameraPreferences();
-    setUpFaceDetectionPreferences();
   }
 
   void setUpCameraPreferences() {
@@ -120,45 +119,5 @@ public class LivePreviewPreferenceFragment extends PreferenceFragment {
         camera.release();
       }
     }
-  }
-
-  private void setUpFaceDetectionPreferences() {
-    setUpListPreference(R.string.pref_key_live_preview_face_detection_landmark_mode);
-    setUpListPreference(R.string.pref_key_live_preview_face_detection_contour_mode);
-    setUpListPreference(R.string.pref_key_live_preview_face_detection_classification_mode);
-    setUpListPreference(R.string.pref_key_live_preview_face_detection_performance_mode);
-
-    EditTextPreference minFaceSizePreference =
-        (EditTextPreference)
-            findPreference(getString(R.string.pref_key_live_preview_face_detection_min_face_size));
-    minFaceSizePreference.setSummary(minFaceSizePreference.getText());
-    minFaceSizePreference.setOnPreferenceChangeListener(
-        (preference, newValue) -> {
-          try {
-            float minFaceSize = Float.parseFloat((String) newValue);
-            if (minFaceSize >= 0.0f && minFaceSize <= 1.0f) {
-              minFaceSizePreference.setSummary((String) newValue);
-              return true;
-            }
-          } catch (NumberFormatException e) {
-            // Fall through intentionally.
-          }
-
-          Toast.makeText(
-                  getActivity(), R.string.pref_toast_invalid_min_face_size, Toast.LENGTH_LONG)
-              .show();
-          return false;
-        });
-  }
-
-  private void setUpListPreference(@StringRes int listPreferenceKeyId) {
-    ListPreference listPreference = (ListPreference) findPreference(getString(listPreferenceKeyId));
-    listPreference.setSummary(listPreference.getEntry());
-    listPreference.setOnPreferenceChangeListener(
-        (preference, newValue) -> {
-          int index = listPreference.findIndexOfValue((String) newValue);
-          listPreference.setSummary(listPreference.getEntries()[index]);
-          return true;
-        });
   }
 }
