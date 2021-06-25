@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">MLKit-Vision</string>
+    <string name="app_name" translatable="false">Desporto do IPVC</string>
     <string name="Bemvindo" translatable="false">Bem vindo ao protótipo de desporto do IPVC</string>
     <string name="ok" translatable="false">OK</string>
     <string name="permission_camera_rationale" translatable="false">Access to the camera is needed for detection</string>
@@ -15,6 +15,7 @@
     <string name="download_error" translatable="false">Download error</string>
     <string name="start_over" translatable="false">Start over</string>
     <string name="menu_item_settings" translatable="false">Settings</string>
+    <string name="menu_item_icon" translatable="false">IPVC</string>
     <string name="select_image" translatable="false">Select image</string>
     <string name="custom_object_detection" translatable="false">Custom Object Detector</string>
 

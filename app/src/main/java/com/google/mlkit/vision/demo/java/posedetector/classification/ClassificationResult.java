@@ -56,6 +56,7 @@ public class ClassificationResult {
   }
 
   public void putClassConfidence(String className, float confidence) {
+    confidence = confidence * 100;
     classConfidences.put(className, confidence);
   }
 }

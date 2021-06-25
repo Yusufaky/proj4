@@ -68,6 +68,10 @@
         "source": "/home/marcos/Transferências/vision-quickstart/app/src/main/res/drawable-hdpi/ic_switch_camera_white_48dp_inset.png"
     },
     {
+        "merged": "/home/marcos/Transferências/vision-quickstart/app/build/intermediates/res/merged/debug/drawable_ipvc.jpg.flat",
+        "source": "/home/marcos/Transferências/vision-quickstart/app/src/main/res/drawable/ipvc.jpg"
+    },
+    {
         "merged": "/home/marcos/Transferências/vision-quickstart/app/build/intermediates/res/merged/debug/layout_settings_style.xml.flat",
         "source": "/home/marcos/Transferências/vision-quickstart/app/src/main/res/layout/settings_style.xml"
     },
@@ -118,6 +122,10 @@
     {
         "merged": "/home/marcos/Transferências/vision-quickstart/app/build/intermediates/res/merged/debug/layout_toggle_style.xml.flat",
         "source": "/home/marcos/Transferências/vision-quickstart/app/src/main/res/layout/toggle_style.xml"
+    },
+    {
+        "merged": "/home/marcos/Transferências/vision-quickstart/app/build/intermediates/res/merged/debug/layout_icon_style.xml.flat",
+        "source": "/home/marcos/Transferências/vision-quickstart/app/src/main/res/layout/icon_style.xml"
     },
     {
         "merged": "/home/marcos/Transferências/vision-quickstart/app/build/intermediates/res/merged/debug/drawable_list_item_background.xml.flat",
