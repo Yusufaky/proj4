@@ -23,6 +23,10 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.PointF;
+import android.util.Log;
+import android.widget.TextView;
+import android.widget.Toast;
+
 import com.google.common.primitives.Ints;
 import com.google.mlkit.vision.common.PointF3D;
 import com.google.mlkit.vision.demo.GraphicOverlay;
@@ -67,10 +71,10 @@ public class PoseGraphic extends Graphic {
     this.rescaleZForVisualization = rescaleZForVisualization;
 
     this.poseClassification = poseClassification;
+    Log.d("marcos1", String.valueOf(poseClassification));
     classificationTextPaint = new Paint();
-    classificationTextPaint.setColor(Color.GREEN);
     classificationTextPaint.setTextSize(POSE_CLASSIFICATION_TEXT_SIZE);
-    classificationTextPaint.setShadowLayer(5.0f, 0f, 0f, Color.BLACK);
+    classificationTextPaint.setShadowLayer(5.0f, 0f, 0f, Color.GREEN);
 
     whitePaint = new Paint();
     whitePaint.setStrokeWidth(STROKE_WIDTH);
